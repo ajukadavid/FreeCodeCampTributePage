@@ -1,0 +1,56 @@
+#main {
+  font-family: verdana;
+  background: #eeefef;
+}
+#title {
+  display: grid;
+  width: 100%;
+}
+#title > h2,
+p {
+  place-self: center;
+}
+#img-div {
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+#image {
+  place-self: center;
+}
+#img-caption {
+  place-self: center;
+  font-weight: lighter;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#tribute-info {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+#tribute-info > h2 {
+  place-self: center;
+}
+#Items {
+  display: grid;
+  width: 100%;
+}
+#Items > ul,
+i {
+  width: 50%;
+  place-self: center;
+  line-height: 24px;
+}
+i {
+  padding: 50px;
+}
+span {
+  font-weight: bolder;
+  place-self: center;
+}
+a {
+  color: #497ca9;
+}
